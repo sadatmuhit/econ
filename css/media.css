@@ -1,0 +1,120 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .menu ul li a {
+        padding: 5px 0 0 !important;
+    }
+    #banner {
+        padding: 100px 0;
+    }
+    .b_content h1 {
+        font-size: 27px;
+    }
+    .b_content p {
+        padding-right: 0px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .f_single h3 {
+        font-size: 17px;
+    }
+    .a_single {
+        padding: 30px 0;
+    }
+    .a_single p {
+        margin-top: 16px;
+    }
+    .mt_60 {
+        margin-top: 40px;
+    }
+    .talkbubble:before {
+        right: 45%;
+    }
+    .c_name {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .s_single {
+        margin-bottom: 60px;
+        padding-right: 0px;
+    }
+    .s_single p {
+        margin: 15px 0;
+    }
+    .mtop {
+        margin-top: 30px;
+    }
+    .feature,
+    #client,
+    #skill,
+    #blog,
+    #contact,
+    footer {
+        padding: 50px 0;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu ul li a {
+        padding: 5px 0 0 !important;
+    }
+    .b_content h1 {
+        font-size: 40px;
+    }
+    .title {
+        font-size: 36px;
+    }
+    .s_single {
+        margin-bottom: 60px;
+        padding-right: 0px;
+    }
+    .feature,
+    #client,
+    #skill,
+    #blog,
+    #contact {
+        padding: 60px 0;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .b_content h1 {
+        font-size: 40px;
+    }
+    .b_content p {
+        padding-right: 20px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .f_single h3 {
+        font-size: 16px;
+    }
+    .a_single {
+        padding: 30px 15px;
+    }
+    .a_single p {
+        margin-top: 15px;
+    }
+    .s_single {
+        padding-right: 0px;
+    }
+    .s_single p {
+        margin: 15px 0;
+    }
+    .feature,
+    #client,
+    #skill,
+    #blog,
+    #contact {
+        padding: 80px 0;
+    }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .b_content h1 {
+        font-size: 57px;
+    }
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
